@@ -1,0 +1,3 @@
+[submodule "submodules/django-device-notifications"]
+	path = submodules/django-device-notifications
+	url = git@github.com:roverdotcom/django-push-notifications.git
