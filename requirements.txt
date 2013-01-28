@@ -1,2 +1,6 @@
 Django==1.4.3
 wsgiref==0.1.2
+pyOpenSSL==0.13
+python-dateutil==1.5
+pytz==2012j
+
