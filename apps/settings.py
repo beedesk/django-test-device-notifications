@@ -1,6 +1,5 @@
 # Django settings for this project.
 import os
-import sys
 
 BASE_PATH = os.path.dirname(os.path.realpath(__file__))
 
@@ -21,7 +20,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_PATH, '..', 'database.sqlite3'),
     }
 }
-    
+
 DATABASE_ENGINE = DATABASES['default']['ENGINE']
 
 # Local time zone for this installation. Choices can be found here:
@@ -90,6 +89,9 @@ TEMPLATE_LOADERS = (
     'django.template.loaders.app_directories.Loader',
 #     'django.template.loaders.eggs.Loader',
 )
+
+# 
+APN_PASSPHRASE = 'myapnpassphrase'
 
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
